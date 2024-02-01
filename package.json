@@ -30,7 +30,7 @@
     "@solid-primitives/websocket": "^1.1.0",
     "@solidjs/router": "^0.8.3",
     "@tabler/icons-solidjs": "^2.38.0",
-    "@tanstack/match-sorter-utils": "^8.8.4",
+    "@tanstack/match-sorter-utils": "^8.11.7",
     "@tanstack/solid-table": "^8.10.3",
     "@tanstack/solid-virtual": "3.0.0-beta.61",
     "@tanstack/virtual-core": "3.0.0-beta.63",
