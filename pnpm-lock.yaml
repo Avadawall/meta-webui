@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -144,8 +144,8 @@ dependencies:
     specifier: ^0.5.5
     version: 0.5.5(prettier-plugin-organize-imports@3.2.3)(prettier@3.0.3)
   solid-apexcharts:
-    specifier: ^0.3.2
-    version: 0.3.2(apexcharts@3.43.0)(solid-js@1.7.12)
+    specifier: ^0.3.4
+    version: 0.3.4(apexcharts@3.43.0)(solid-js@1.7.12)
   solid-js:
     specifier: ^1.7.12
     version: 1.7.12
@@ -3243,6 +3243,10 @@ packages:
     resolution: {integrity: sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==}
     dev: false
 
+  /defu@6.1.4:
+    resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
+    dev: false
+
   /detect-indent@7.0.1:
     resolution: {integrity: sha512-Mc7QhQ8s+cLrnUfU/Ji94vG/r8M26m8f++vyres4ZoojaRDpZ1eSIh/EpzLNwlWuvzSZ3UbDFspjFvTDXe6e/g==}
     engines: {node: '>=12.20'}
@@ -5543,14 +5547,15 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: false
 
-  /solid-apexcharts@0.3.2(apexcharts@3.43.0)(solid-js@1.7.12):
-    resolution: {integrity: sha512-4U80dk2e/YEghD903aitBrO0l5WjUv/IhRI6Pp8mfJNT6JPkYG4HTMjBrI+XHRU8uJICJl9ZwLtkvFZnKd2Shw==}
+  /solid-apexcharts@0.3.4(apexcharts@3.43.0)(solid-js@1.7.12):
+    resolution: {integrity: sha512-XtsQLOYhckjGXBr2bj//ai6+Ld1cjeINRVEHtrGFWI8KgtB8KuRZII+ywRWQCWvezqgAISpRrbR6NW23+V82dg==}
+    engines: {node: '>=18', pnpm: '>=8.6.0'}
     peerDependencies:
       apexcharts: ^3.40.0
       solid-js: ^1.6.0
     dependencies:
       apexcharts: 3.43.0
-      defu: 6.1.2
+      defu: 6.1.4
       solid-js: 1.7.12
     dev: false
 
@@ -6507,6 +6512,7 @@ packages:
 
   /workbox-google-analytics@7.0.0:
     resolution: {integrity: sha512-MEYM1JTn/qiC3DbpvP2BVhyIH+dV/5BjHk756u9VbwuAhu0QHyKscTnisQuz21lfRpOwiS9z4XdqeVAKol0bzg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 7.0.0
       workbox-core: 7.0.0
